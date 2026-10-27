@@ -1,0 +1,36 @@
+.page-head{background:var(--navy);color:#fff;padding:56px 0}
+.page-head h1{font-size:clamp(28px,4vw,42px);margin:10px 0 10px;line-height:1.15}
+.page-head p{margin:0;max-width:680px;opacity:.92;font-size:18px}
+.page-head .eyebrow{color:#ff8e97}
+
+.catalog-tools{position:sticky;top:84px;z-index:10;background:#fff;padding:14px 0 12px;border-bottom:1px solid var(--line);margin-bottom:36px}
+.search{display:block;margin-bottom:12px}
+.search span{display:block;font-size:13px;font-weight:600;color:var(--muted);margin-bottom:6px}
+.search input{width:100%;max-width:520px;padding:12px 14px;border:1px solid var(--line);border-radius:4px;font:inherit}
+.search input:focus{outline:2px solid var(--blue);outline-offset:1px}
+.chips{display:flex;gap:8px;flex-wrap:wrap}
+.chips a{font-size:13px;padding:6px 12px;border:1px solid var(--line);border-radius:999px;color:var(--navy);background:#fff;font-weight:600}
+.chips a:hover{background:var(--navy);color:#fff;border-color:var(--navy)}
+
+.cat{padding:8px 0 40px;scroll-margin-top:210px}
+.cat+.cat{border-top:1px solid var(--line);padding-top:40px}
+.group{margin-bottom:24px}
+.group h3{font-size:16px;text-transform:uppercase;letter-spacing:.08em;color:var(--blue);margin-bottom:12px}
+.items{display:grid;gap:14px;grid-template-columns:repeat(auto-fill,minmax(260px,1fr))}
+.item{border:1px solid var(--line);border-left:4px solid var(--red);border-radius:4px;padding:14px 16px;background:#fff}
+.item h4{margin:0 0 4px;font-size:16px;color:var(--navy)}
+.item p{margin:0;font-size:14px;color:var(--muted)}
+.note-box.wide{margin-top:24px}
+
+.spot{border-left:6px solid var(--red);background:var(--soft);padding:22px 26px;margin-bottom:44px;border-radius:4px}
+.spot-name{font-size:26px;font-weight:700;color:var(--navy)}
+.spot-role{color:var(--muted)}
+.people{display:grid;gap:14px;grid-template-columns:repeat(auto-fill,minmax(240px,1fr))}
+.person{border:1px solid var(--line);border-top:4px solid var(--navy);border-radius:4px;padding:16px 18px;background:#fff}
+.person.ind{border-top-color:var(--blue)}
+.person b{display:block;color:var(--text)}
+.person span{font-size:13px;color:var(--muted)}
+.mgmt.big th,.mgmt.big td{padding:14px 12px}
+.mgmt.big{background:#fff}
+
+@media (max-width:920px){.catalog-tools{top:84px}.cat{scroll-margin-top:260px}}
